@@ -1,0 +1,10 @@
+module(
+    name = "rules_shellcheck_bcr_tests",
+    version = "0.0.1",
+)
+
+bazel_dep(name = "rules_shellcheck", version = "", repo_name = "rules_shellcheck")
+local_path_override(
+    module_name = "rules_shellcheck",
+    path = "../..",
+)

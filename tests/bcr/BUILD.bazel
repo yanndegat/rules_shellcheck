@@ -1,0 +1,9 @@
+load("@rules_shellcheck//shellcheck:def.bzl", "shellcheck_test")
+
+shellcheck_test(
+    name = "test",
+    srcs = glob(["*.sh"]),
+    tags = [
+        "lint",
+    ],
+)
