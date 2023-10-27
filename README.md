@@ -11,7 +11,7 @@ bazel_dep(name = "rules_shellcheck", version = "0.0.1")
 git_override(
     module_name = "rules_shellcheck",
     remote      = "https://github.com/yanndegat/rules_shellcheck",
-    commit      = "",
+    commit      = "eec043b78e9e337f2473da8836191842ba0f2ce0",
 )
 ```
 
